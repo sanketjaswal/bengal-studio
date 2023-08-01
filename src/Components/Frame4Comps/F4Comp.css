@@ -1,0 +1,54 @@
+.F4Tab {
+  width: 374px;
+  height: 434px;
+  flex-shrink: 0;
+  background-color: #090823;
+  border-radius: 0 35px 0 35px;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: flex-start; */
+  align-items: center;
+}
+
+.TabImg {
+  width: 335px;
+  height: 217px;
+  border-radius: 0px 15px 0px 0px;
+  /* background: url(../asseets/Tab1.png); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-block: 15px;
+}
+
+.photo1 {
+  background: url(../asseets/Tab1.png);
+}
+
+.photo2 {
+  background: url(../asseets/Tab2.png);
+}
+
+.photo3 {
+  background: url(../asseets/Tab3.png);
+}
+
+.photo4 {
+  background: url(../asseets/Tab4.png);
+}
+
+.photo5 {
+  background: url(../asseets/Tab5.png);
+}
+
+.photo6 {
+  background: url(../asseets/Tab6.png);
+}
+
+.F4TextHolder {
+  text-align: left;
+  width: 335px;
+}
+
+.F4BtnHolder{
+    display: flex;
+}

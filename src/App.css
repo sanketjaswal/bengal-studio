@@ -1,38 +1,416 @@
+body {
+  background-color: #010208;
+}
+
 .App {
-  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* overflow: hidden; */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container {
+  width: 100vw;
+  height: 4234px;
+  background: linear-gradient(
+    180deg,
+    #010208 16.39%,
+    #010206 20.51%,
+    #040008 24.79%,
+    #010101 30.46%,
+    #010101 34.11%,
+    #010101 36.21%,
+    #010101 100%
+  );
+  display: inline-flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 100px;
+  flex-wrap: wrap;
+  contain: strict;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* NAVBAR */
+
+.NavContainer {
+  display: inline-flex;
+  align-items: center;
+  gap: 100px;
+  color: rgb(255, 255, 255);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.NavLogo {
+  display: flex;
+  width: 675px;
+  align-items: flex-start;
+  gap: 10px;
+  font-family: Orbitron;
+}
+
+.NavBtns {
+  display: flex;
+  align-items: flex-start;
+  gap: 50px;
+  cursor: pointer;
+}
+
+/* Frame 1 */
+
+#Frame1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: absolute;
+  width: Hug (612px);
+  height: Hug (393px);
+  top: 209px;
+  left: 118px;
+  gap: 40px;
+}
+
+#Frame1_1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 18px;
+}
+
+#TextHolder1_1 {
+  width: 612px;
+  position: relative;
+}
+
+#BtnHolder1_1 {
+  width: 362px;
+  height: 54px;
+  gap: 16px;
+  display: flex;
+  align-items: flex-start;
+}
+
+#Frame1_2 {
+  width: 344px;
+  height: 65px;
+  display: flex;
+  align-items: flex-start;
+  gap: 68px;
+}
+
+.subItems {
+  width: Hug (78px);
+  height: Hug (65px);
+  gap: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+/*  Frame 2  */
+
+#Frame2 {
+  width: 636px;
+  height: 761px;
+  top: 149px;
+  left: 730px;
+  position: absolute;
+}
+
+#Image1 {
+  width: 566px;
+  height: 568px;
+  flex-shrink: 0;
+  background: url(./Components/asseets/image1.png);
+  background-color: lightgray 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+}
+
+#rectangle {
+  width: 540px;
+  height: 303px;
+  bottom: -100px;
+  left: 50px;
+  position: absolute;
+  background: #000000;
+  filter: blur(200px);
+}
+#starvector {
+  width: 64px;
+  height: 73px;
+  top: 100px;
+  position: absolute;
+  flex-shrink: 0;
+  fill: #fff;
+  color: #fff;
+  background-image: url(./Components/asseets/Vector.svg);
+}
+
+/* Frame 3 */
+
+#Frame3 {
+  width: 1210px;
+  height: 486px;
+  position: absolute;
+  top: 887px;
+  left: 115px;
+  gap: 154px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#Image3 {
+  width: 286px;
+  height: 300px;
+  top: 146.5px;
+  left: 233px;
+  flex-shrink: 0;
+  background: url("./Components/asseets/image3.png");
+  background-color: lightgray 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  display: flex;
+}
+
+#Image2 {
+  width: 282px;
+  height: 297px;
+  top: 35.5px;
+  left: 8px;
+  flex-shrink: 0;
+  background: url("./Components/asseets/image2.png");
+  background-color: lightgray 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+}
+
+#Frame3phra {
+  width: 524px;
+  height: 486px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 52px;
+}
+
+#frame3text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  width: 524px;
+  height: 390px;
+}
+
+#f3Text {
+  display: inline-flex;
+}
+
+/* Frame 4 */
+
+#Frame4 {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  width: 1198px;
+  height: 1105px;
+  top: 1454px;
+  left: 120px;
+  gap: 87px;
+  position: absolute;
+}
+
+#frame4Textcont {
+  width: 702px;
+  height: 114px;
+  gap: 16px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  text-align: center;
+}
+
+#f4TabsHolder {
+  display: flex;
+  align-items: flex-start;
+  gap: 38px;
+  width: 1198px;
+  flex-wrap: wrap;
+}
+
+/* Frame5 */
+
+#Frame5 {
+  width: 873px;
+  height: 198.17px;
+  top: 2666px;
+  left: 269px;
+  gap: 16px;
+  display: flex;
+  width: 873px;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+}
+
+#frame5head {
+  display: inline-flex;
+}
+
+#frame5text {
+  width: 500.207px;
+  height: 135px;
+  text-align: center;
+}
+
+/* Frame 6 */
+
+#Frame6 {
+  width: 2418px;
+  height: 822px;
+  top: 2745px;
+  position: absolute;
+  display: inline-flex;
+  padding: 171.548px 0px 0.452px 0px;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
 }
 
-.App-link {
-  color: #61dafb;
+#frame6_1 {
+  width: 1182px;
+  height: 650px;
+  border-radius: 0px 0px 25px 25px;
+  background: url(./Components/asseets/metaverse.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#f6greyArea {
+  border-radius: 0px 0px 25px 25px;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(5px);
+  width: 1132px;
+  height: 148px;
+  flex-shrink: 0;
+  bottom: 85px;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  padding-left: 50px;
+}
+
+/* Footer */
+
+#Footer {
+  flex-shrink: 0;
+  width: 100vw;
+  height: 443px;
+  top: 3791px;
+  position: absolute;
+  background-color: rgba(9, 8, 35, 1);
+}
+
+#footer1 {
+  width: 524px;
+  height: 176px;
+  top: 104px;
+  left: 149px;
+  padding: 0px 0px 60px 0px;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 23px;
+}
+
+#footer2 {
+  width: 148px;
+  height: 213px;
+  top: 104px;
+  left: 689px;
+  position: absolute;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 21px;
+}
+
+#inFoot2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 148px;
+  height: 167px;
+  top: 46px;
+  gap: 8px;
+  position: absolute;
+}
+
+#footer3 {
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 21px;
+  width: 149px;
+  height: 213px;
+  top: 104px;
+  left: 919px;
+  position: absolute;
+}
+
+#footer4 {
+  width: 263px;
+  height: 156px;
+  top: 104px;
+  left: 1133px;
+  gap: 24px;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: absolute;
+}
+
+#infoot4 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 263px;
+  height: 107px;
+  gap: 24px;
+}
+
+#footerIcons {
+  width: 203px;
+  height: 35px;
+  gap: 21px;
+  display: flex;
+  align-items: flex-start;
+}
+
+.icons {
+  width: 35px;
+  height: 35px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+
+#icon1 {
+  background: url(./Components/asseets/Instagram.png);
+}
+
+#icon2 {
+  background: url(./Components/asseets/Facebook.png);
+}
+
+#icon3 {
+  background: url(./Components/asseets/LinkedIn.png);
+}
+
+#icon4 {
+  background: url(./Components/asseets/Twitter.png);
 }
