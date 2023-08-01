@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/bengal-studio/static/css/main.31f44078.css",
+    "main.js": "/bengal-studio/static/js/main.6eefa220.js",
+    "static/js/787.437e8cac.chunk.js": "/bengal-studio/static/js/787.437e8cac.chunk.js",
+    "static/media/metaverse.png": "/bengal-studio/static/media/metaverse.de7895d0ffe41f92154f.png",
+    "static/media/image1.png": "/bengal-studio/static/media/image1.b12cb4e81e5489fd43a2.png",
+    "static/media/Tab4.png": "/bengal-studio/static/media/Tab4.11aab4d89db94cc74f21.png",
+    "static/media/Tab6.png": "/bengal-studio/static/media/Tab6.7204403cdba70f2f9c53.png",
+    "static/media/Tab5.png": "/bengal-studio/static/media/Tab5.4bd94db63617c9513a27.png",
+    "static/media/Tab2.png": "/bengal-studio/static/media/Tab2.bd694a4319fb5e899684.png",
+    "static/media/Tab3.png": "/bengal-studio/static/media/Tab3.90155771b81f8c548d7d.png",
+    "static/media/Tab1.png": "/bengal-studio/static/media/Tab1.8539500bf5f3a5fdb91b.png",
+    "static/media/image2.png": "/bengal-studio/static/media/image2.1ab42b0fe61ed9a3deef.png",
+    "static/media/image3.png": "/bengal-studio/static/media/image3.280f11702a112c14c5d1.png",
+    "static/media/Vector.svg": "/bengal-studio/static/media/Vector.fd215747a6f0c9ef2e0f.svg",
+    "index.html": "/bengal-studio/index.html",
+    "main.31f44078.css.map": "/bengal-studio/static/css/main.31f44078.css.map",
+    "main.6eefa220.js.map": "/bengal-studio/static/js/main.6eefa220.js.map",
+    "787.437e8cac.chunk.js.map": "/bengal-studio/static/js/787.437e8cac.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.31f44078.css",
+    "static/js/main.6eefa220.js"
+  ]
+}
